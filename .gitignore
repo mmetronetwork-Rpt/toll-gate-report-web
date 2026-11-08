@@ -1,0 +1,16 @@
+# clasp (berisi ID proyek Apps Script)
+.clasp.json
+.clasprc.json
+
+# data & rahasia — jangan pernah di-commit
+*.xlsx
+*.csv
+*.env
+.env*
+USERS*.*
+service-account*.json
+
+# sistem
+.DS_Store
+Thumbs.db
+node_modules/
